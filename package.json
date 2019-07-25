@@ -1,0 +1,60 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "Mern Demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^4.1.1",
+    "nodemon": "^1.18.7"
+  },
+  "proxy": {
+    "/api": {
+      "target": "https://localhost:3001",
+      "secure": false
+    }
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "classnames": "^2.2.6",
+    "concurrently": "^4.1.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "helmet": "^3.13.0",
+    "if-env": "^1.0.4",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^2.2.0",
+    "materialize-css": "^1.0.0",
+    "mongoose": "^5.2.5",
+    "mongoose-data-seed": "^1.0.7",
+    "mongoose-seed": "^0.6.0",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "react-modal": "^3.5.1",
+    "react-shopping-cart": "^1.8.31",
+    "redux-thunk": "^2.3.0",
+    "validator": "^11.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KelseyGibbs/Project3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KelseyGibbs/Project3/issues"
+  },
+  "homepage": "https://github.com/KelseyGibbs/Project3#readme"
+}

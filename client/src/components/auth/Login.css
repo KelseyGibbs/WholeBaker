@@ -1,0 +1,19 @@
+#login {
+    height:13in;
+    background-image: url("../Images/bread.jpeg");
+    background-position: center top;
+    background-color: #F4F5F7;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+} 
+
+.container {
+    width: 100% !important;
+    max-width: 1500px !important;
+}
+
+#logintext {
+    padding-top: 6in;
+    width: 100%;
+}
