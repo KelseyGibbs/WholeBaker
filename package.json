@@ -47,7 +47,7 @@
     "react-modal": "^3.5.1",
     "react-shopping-cart": "^1.8.31",
     "redux-thunk": "^2.3.0",
-    "validator": "^11.0.0"
+    "validator": "^13.7.0"
   },
   "repository": {
     "type": "git",
