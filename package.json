@@ -38,7 +38,7 @@
     "jsonwebtoken": "^8.5.1",
     "jwt-decode": "^2.2.0",
     "materialize-css": "^1.0.0",
-    "mongoose": "^5.2.5",
+    "mongoose": "^5.7.5",
     "mongoose-data-seed": "^1.0.7",
     "mongoose-seed": "^0.6.0",
     "morgan": "^1.9.1",
