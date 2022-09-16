@@ -45,7 +45,7 @@
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
     "react-modal": "^3.5.1",
-    "react-shopping-cart": "^1.8.31",
+    "react-shopping-cart": "^1.9.5",
     "redux-thunk": "^2.3.0",
     "validator": "^11.0.0"
   },
