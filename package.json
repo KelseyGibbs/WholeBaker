@@ -39,7 +39,7 @@
     "jwt-decode": "^2.2.0",
     "materialize-css": "^1.0.0",
     "mongoose": "^5.2.5",
-    "mongoose-data-seed": "^1.0.7",
+    "mongoose-data-seed": "^2.1.6",
     "mongoose-seed": "^0.6.0",
     "morgan": "^1.9.1",
     "passport": "^0.4.0",
